@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .nav-links {
+    @apply text-sm font-semibold leading-6 text-gray-900 transition-colors duration-150 hover:text-blue-900 font-montserrat;
+  }
+
+  .skills-name {
+    @apply font-serif text-gray-700 mt-1;
+  }
+}

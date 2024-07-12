@@ -6,7 +6,7 @@ const About = () => {
       <div className='flex gap-10'>
 
         <div className='flex justify-center items-center'>
-          <img src='../public/assets/profileimg.png' className='w-[230px] h-[230px] rounded-full' />
+          <img src='/public/assets/profileimg.png' className='w-[230px] h-[230px] rounded-full' />
         </div>
 
         <div className='flex w-[500px] flex-col justify-center gap-2'>

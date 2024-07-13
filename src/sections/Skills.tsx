@@ -1,13 +1,13 @@
 
 const Skills = () => {
   return (
-    <div id='skills' className='flex py-4 flex-col bg-[#fbfbfb] justify-center'>
+    <div id='skills' className='flex py-12 flex-col bg-[#f9f9f9] justify-center'>
 
       <div className='flex justify-center'>
         <h1 className="my-4 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">Habilidades</h1>
       </div>
       
-      <div className='flex mt-6 justify-center gap-12'>
+      <div className='grid lg:grid-cols-6 mt-12 sm:grid-cols-4 grid-cols-2 justify-center self-center gap-10 lg:w-[60%] sm:w-[80%]'>
 
         <div className='flex flex-col align-middle justify-center items-center'>
           <img src="/assets/skills/HTML5.svg" alt="HTML" className='w-[50px]' />
@@ -35,8 +35,33 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
+          <img src="/assets/skills/Tailwind CSS.svg" alt="JavaScript" className='w-[50px]' />
+          <p className='skills-name'>Tailwind</p>
+        </div>
+
+        <div className='flex flex-col align-middle justify-center items-center'>
+          <img src="/assets/skills/Material UI.svg" alt="JavaScript" className='w-[50px]' />
+          <p className='skills-name'>Material UI</p>
+        </div>
+
+        <div className='flex flex-col align-middle justify-center items-center'>
           <img src="/assets/skills/Node.js.svg" alt="JavaScript" className='w-[50px]' />
           <p className='skills-name'>Node.js</p>
+        </div>
+
+        <div className='flex flex-col align-middle justify-center items-center'>
+          <img src="/assets/skills/Git.svg" alt="JavaScript" className='w-[50px]' />
+          <p className='skills-name'>Git</p>
+        </div>
+
+        <div className='flex flex-col align-middle justify-center items-center'>
+          <img src="/assets/skills/MySQL.svg" alt="JavaScript" className='w-[50px]' />
+          <p className='skills-name'>MySQL</p>
+        </div>
+
+        <div className='flex flex-col align-middle justify-center items-center'>
+          <img src="/assets/skills/MongoDB.svg" alt="JavaScript" className='w-[50px]' />
+          <p className='skills-name'>MongoDB</p>
         </div>
 
 

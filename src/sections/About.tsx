@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div className="h-[100vh] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
+    <div id='aboutme' className="h-[calc(100vh-65px)] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
 
       <div className='flex gap-10'>
 

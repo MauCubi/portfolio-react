@@ -63,11 +63,7 @@ const Skills = () => {
           <img src="/assets/skills/MongoDB.svg" alt="JavaScript" className='w-[50px]' />
           <p className='skills-name'>MongoDB</p>
         </div>
-
-
-
-
-      </div>      
+      </div>  
     </div>
   )
 }

@@ -1,7 +1,7 @@
 
 const Projects = () => {
   return (
-    <div id='projects' className='flex py-12 flex-col bg-[#f9f9f9] justify-center'>
+    <div id='projects' className='flex py-12 flex-col bg-[#ffffff] justify-center'>
 
       <div className='flex justify-center'>
         <h1 className="my-4 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">Proyectos</h1>

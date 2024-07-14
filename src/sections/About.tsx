@@ -1,21 +1,19 @@
 
 const About = () => {
   return (
-    <div id='aboutme' className="h-[calc(100vh-65px)] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
+    <div id='aboutme' className="h-[calc(100vh-5rem)] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
 
-      <div className='flex gap-10'>
+      <div className='flex gap-12'>
 
         <div className='flex justify-center items-center'>
-          <img src='/assets/profileimg.png' className='w-[230px] h-[230px] rounded-full' />
+          <img src='/assets/profileimg.png' className='w-[18em] h-[18em] rounded-full' />
         </div>
 
-        <div className='flex w-[500px] flex-col justify-center gap-2'>
+        <div className='flex w-[40rem] flex-col justify-center gap-3'>
 
-          <h5 className='font-semibold font-montserrat text-[32px] mb-3 text-gray-800'>Hola, soy Mauro Cubilla</h5>
-          <p className='font-montserrat text-gray-800 leading-5'>
-            Soy un desarrollador web de Argentina especializado en frontend con React pero cuento con conocimientos con varias tecnologias backend.
-            <br />
-            Soy un alumno avanzado en la carrera de analista de sistemas por lo que tambien tengo conocimientos del proceso de software como analisis y documentacion de requisitos                      
+          <h5 className='font-semibold font-montserrat text-[3rem] mb-3 text-gray-800'>Hola, soy Mauro Cubilla</h5>
+          <p className='font-montserrat text-[1.5rem] text-gray-800 leading-8'>
+            Soy un desarrollador web argentino especializado en frontend con React pero también tengo conocimiento de diversas tecnologías backend.
           </p>
           
 

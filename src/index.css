@@ -7,7 +7,7 @@
 
 @layer utilities {
   .nav-links {
-    @apply text-sm font-semibold leading-6 text-gray-900 transition-colors duration-150 hover:text-blue-900 font-montserrat;
+    @apply text-[1rem] font-semibold leading-6 text-gray-900 transition-colors duration-150 hover:text-blue-900 font-montserrat;
   }
 
   .skills-name {

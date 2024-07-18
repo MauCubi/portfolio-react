@@ -4,7 +4,7 @@ const Skills = () => {
     <div id='skills' className='flex py-12 flex-col bg-[#f9f9f9] justify-center'>
 
       <div className='flex justify-center'>
-        <h1 className="my-4 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">Habilidades</h1>
+        <h1 className="my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">Habilidades</h1>
       </div>
       
       <div className='grid lg:grid-cols-6 mt-12 sm:grid-cols-4 grid-cols-2 justify-center self-center gap-10 lg:w-[60%] sm:w-[80%]'>

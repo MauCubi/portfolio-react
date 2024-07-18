@@ -6,7 +6,7 @@ import Skills from './sections/Skills'
 function App() {
 
   return (
-    <div className='!scroll-smooth'>
+    <div className='flex flex-col !scroll-smooth'>
       <Header/>
       <About/>
       <Skills/>

@@ -11,7 +11,7 @@ const About = () => {
 
         <div className='flex w-[40rem] flex-col justify-center gap-3'>
 
-          <h5 className='font-semibold font-montserrat text-[3rem] mb-3 text-gray-800'>Hola, soy Mauro Cubilla</h5>
+          <h1 className='font-semibold font-montserrat text-[3rem] mb-3 text-gray-800'>Hola, soy Mauro Cubilla</h1>
           <p className='font-montserrat text-[1.5rem] text-gray-800 leading-8'>
             Soy un desarrollador web argentino especializado en frontend con React pero también tengo conocimiento de diversas tecnologías backend.
           </p>

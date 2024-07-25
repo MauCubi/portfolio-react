@@ -1,0 +1,23 @@
+{
+    "header": {
+        "about": "Sobre mi",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "about": {
+        "title": "Hola, soy Mauro Cubilla",
+        "description": "Soy un desarrollador web argentino especializado en frontend con React pero también tengo conocimiento de diversas tecnologías backend.",
+        "cv": "Curriculum"
+    },    
+    "projects":[
+        {
+            "title": "Red Social de Recetas",
+            "description": "Proyecto fullstack donde puedes compartir recetas como también buscar recetas de otros usuarios, agregarlas a favoritos, dejarles comentario y puntaje. Autenticación protegida con encriptación de password y JWT."
+        },        
+        {
+            "title": "Aplicacion de Clima",
+            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+        }
+    ]
+}

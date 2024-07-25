@@ -6,11 +6,20 @@
 
 
 @layer utilities {
+
+  .language-dropdown {
+    @apply flex gap-4 justify-center rounded-xl cursor-pointer hover:bg-gray-100 p-4;
+  }  
+
   .nav-links {
     @apply text-[1rem] font-semibold leading-6 text-gray-900 transition-colors duration-150 hover:text-blue-900 font-montserrat;
   }
 
   .skills-name {
     @apply font-serif text-gray-700 mt-1;
+  }
+
+  .project-buttons {
+    @apply text-white bg-gray-800 hover:bg-gray-600 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-[1.1rem] px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-gray-400 dark:focus:ring-gray-200 me-2 mb-2;
   }
 }

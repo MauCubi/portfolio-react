@@ -1,0 +1,25 @@
+{
+    "header": {
+        "about": "About me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "about": {
+        "title": "Hi, i'm Mauro Cubilla",
+        "description": "I'm a web developer from Argentina specialized in frontend with react but i also have knowledge of various backend technologies",
+        "cv": "Resume"
+    },
+    "projects":[
+        {
+            "title": "Recipes Social Network",           
+            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+        },
+        {
+            "title": "Weather App",
+            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+        }
+    ]
+
+
+}

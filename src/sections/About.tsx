@@ -1,5 +1,9 @@
+import { useTranslation } from "react-i18next"
 
 const About = () => {
+
+  const { t } = useTranslation("global")
+
   return (
     <div id='aboutme' className="h-[calc(100vh-5rem)] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
 
@@ -11,9 +15,9 @@ const About = () => {
 
         <div className='flex w-[40rem] flex-col justify-center gap-3'>
 
-          <h1 className='font-semibold font-montserrat text-[3rem] mb-3 text-gray-800'>Hola, soy Mauro Cubilla</h1>
+          <h1 className='font-semibold font-montserrat text-[3rem] mb-3 text-gray-800'>{t("about.title")}</h1>
           <p className='font-montserrat text-[1.5rem] text-gray-800 leading-8'>
-            Soy un desarrollador web argentino especializado en frontend con React pero también tengo conocimiento de diversas tecnologías backend.
+            {t("about.description")}
           </p>
           
 
@@ -31,7 +35,7 @@ const About = () => {
 
             <button className='relative flex overflow-hidden flex-row align-middle items-center justify-center rounded-full border border-slate-400 py-1.5 px-3 text-sm bg-slate-100 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-slate-300 before:duration-500 before:ease-out hover:shadow-slate-300 hover:before:h-56 hover:before:w-56'>
               <img src='/assets/icons/icons8-resume-30.png' className='w-5 mr-1 z-10'/>
-              <span className='z-10 text-gray-800'>Curriculum</span>
+              <span className='z-10 text-gray-800'>{t("about.cv")}</span>
             </button>
           </div>
           

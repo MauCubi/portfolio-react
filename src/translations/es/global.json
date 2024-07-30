@@ -13,11 +13,23 @@
     "projects":[
         {
             "title": "Red Social de Recetas",
-            "description": "Proyecto fullstack donde puedes compartir recetas como también buscar recetas de otros usuarios, agregarlas a favoritos, dejarles comentario y puntaje. Autenticación protegida con encriptación de password y JWT."
+            "description": "Proyecto fullstack donde puedes compartir recetas como también buscar recetas de otros usuarios, agregarlas a favoritos, dejarles comentario y puntaje. Website protegido con encriptación de password y JWT."
         },        
         {
-            "title": "Aplicacion de Clima",
-            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+            "title": "Aplicación de Clima",
+            "description": "Primera App react que desarrolle utilizando la api de Openweather para obtener el pronostico y el searchbar de MapBox para obtener lugares y coordenadas."
+        },
+        {
+            "title": "Color ToDo List",
+            "description": "Clásica App para agregar tareas o eventos, con el extra de poder establecer fechas limites las cuales cambian de color a medida se acerca la hora/fecha límite."
+        },
+        {
+            "title": "E-Commerce AluraGeek",
+            "description": "E-Commerce desarrollado como desafio del programa Oracle Next Education, el diseño se realizo siguiendo un figma brindado por los encargados del programa y se uso jsonServer para el CRUD."
+        },
+        {
+            "title": "Encriptador de Texto",
+            "description": "Simple App que permite encriptar/desencriptar texto, proyecto que hice para practicar el cambio de idioma y el framework css tailwind"
         }
     ]
 }

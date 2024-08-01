@@ -6,7 +6,7 @@ const Projects = () => {
   const { t } = useTranslation("global")
 
   return (
-    <div id='projects' className='flex py-12 flex-col place-self-center bg-[#ffffff] justify-center w-[90%] mx-auto'>
+    <div id='projects' className='flex py-12 flex-col place-self-center bg-[#ffffff]  justify-center w-[90%] mx-auto'>
 
       <div className='flex justify-center'>
         <h1 className="my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">
@@ -18,10 +18,10 @@ const Projects = () => {
 
         {
           projects.map( (project, index) => (
-            <div key={project.id} className='grid grid-cols-2 w-full py-10'>     
+            <div key={project.id} className='grid grid-cols-2 w-full py-10 mb-10'>     
 
               <div>
-                <img src={project.img} className='w-full'/>
+                <img src={project.img} className='w-full rounded-xl drop-shadow shadow-xl'/>
               </div>     
 
               <div className='flex flex-col px-12 items-center gap-2 justify-center'>

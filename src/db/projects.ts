@@ -32,7 +32,7 @@ export const projects = [
         title: "AluGeek",
         img: '/assets/projects/Alugeek.png',
         description: "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir",
-        technologies: ["Javascript","HTML5","CSS3"],
+        technologies: ["JavaScript","HTML5","CSS3"],
         github: "#",
         demo: "#"
     },

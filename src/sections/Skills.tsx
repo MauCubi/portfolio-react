@@ -1,7 +1,7 @@
 
 const Skills = () => {
   return (
-    <div id='skills' className='flex py-12 flex-col bg-[#f9f9f9] justify-center'>
+    <div id='skills' className='flex py-12 flex-col bg-[#f8f8f8] justify-center'>
 
       <div className='flex justify-center'>
         <h1 className="my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">Habilidades</h1>

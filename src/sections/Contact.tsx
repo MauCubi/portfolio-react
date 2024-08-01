@@ -13,7 +13,7 @@ export type FieldPath<TFieldValues extends FormData> = Path<TFieldValues>
 const Contact = () => {
     
 
-    const { control, handleSubmit, formState: { errors } } = useForm<FormData>({
+    const { control, formState: { errors } } = useForm<FormData>({
         defaultValues: {
             name:'',
             email:'',

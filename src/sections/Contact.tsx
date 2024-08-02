@@ -13,13 +13,17 @@ export type FieldPath<TFieldValues extends FormData> = Path<TFieldValues>
 const Contact = () => {
     
 
-    const { control, formState: { errors } } = useForm<FormData>({
+    const { control, handleSubmit, formState: { errors } } = useForm<FormData>({
         defaultValues: {
             name:'',
             email:'',
             message:''
         }
     })
+
+    const onSubmit = (data:FormData) => {
+        console.log(data)
+    }
     
 
   return (
@@ -32,7 +36,7 @@ const Contact = () => {
         <div className='px-4 sm:w-2/3 lg:w-1/2 mx-auto'>
             <div className='rounded-lg shadow-lg bg-white py-10 md:py-12 px-4 md:px-6'>
 
-                <form>
+                <form onSubmit={handleSubmit(onSubmit)}>
 
                     <Controller
                         name='name'
@@ -42,8 +46,9 @@ const Contact = () => {
                             <FormInput 
                                 type='text' 
                                 label='Nombre' 
-                                placeholder='Ingrese Nombre' 
-                                fieldRef={field} hasError={errors.name?.type === 'required'} 
+                                placeholder='Ingrese su nombre aquí' 
+                                fieldRef={field} 
+                                hasError={errors.name?.type === 'required'} 
                             />
                         )}
                     />
@@ -54,13 +59,32 @@ const Contact = () => {
                         rules={{required: true}}
                         render={({field}) => (
                             <FormInput 
-                                type='text' 
+                                type='email' 
                                 label='Email' 
-                                placeholder='Ingrese Email' 
-                                fieldRef={field} hasError={errors.name?.type === 'required'} 
+                                placeholder='Ingrese su email aquí' 
+                                fieldRef={field} 
+                                hasError={errors.email?.type === 'required'} 
                             />
                         )}
                     />
+
+                    <Controller
+                        name='message'
+                        control={control}
+                        rules={{required: true}}
+                        render={({field}) => (
+                            <FormInput 
+                                type='textarea' 
+                                label='Mensaje' 
+                                placeholder='Ingrese el mensaje aquí' 
+                                fieldRef={field} 
+                                hasError={errors.message?.type === 'required'} 
+                            />
+                        )}
+                    />
+
+                    {/* <button type='submit' className='w-full px-6 py-5 bg-slate-700 text-white font-medium uppercase rounded shadow-md hover:bg-slate-300 hover:shadow-lg focus:bg-slate-400 focus:outline-none focus:ring-0 active:bg-slate-400' >Enviar</button> */}
+                    <button type='submit' className='contact-button' >Enviar</button>
                     
                 </form>
 

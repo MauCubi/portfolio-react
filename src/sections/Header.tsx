@@ -37,7 +37,7 @@ const Header = () => {
                 <a href='#' className='nav-links'>{t("header.about")}</a>
                 <a href='#skills' className='nav-links'>{t("header.skills")}</a>
                 <a href='#projects' className='nav-links'>{t("header.projects")}</a>
-                <a href='#' className='nav-links'>{t("header.contact")}</a>
+                <a href='#contact_me' className='nav-links'>{t("header.contact")}</a>
 
                 <div className='relative flex '>
                 <div 

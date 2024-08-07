@@ -18,15 +18,15 @@ const Projects = () => {
 
         {
           projects.map( (project, index) => (
-            <div key={project.id} className='grid grid-cols-2 w-full py-10 mb-10'>     
+            <div key={project.id} className='grid grid-cols-1 sm:grid-cols-2 w-full py-10 sm:mb-10'>     
 
-              <div>
-                <img src={project.img} className='w-full rounded-xl drop-shadow shadow-xl'/>
+              <div className='flex justify-center sm:mb-0 mb-5'>
+                <img src={project.img} className='sm:w-full w-[95%] rounded-xl drop-shadow shadow-xl '/>
               </div>     
 
-              <div className='flex flex-col px-12 items-center gap-2 justify-center'>
+              <div className='flex flex-col sm:px-12 items-center gap-2 justify-center sm:text-start text-center'>
 
-                <h1 className='font-semibold font-montserrat text-[2rem] text-gray-800'>
+                <h1 className='font-semibold font-montserrat text-[1.6rem] sm:text-[2rem] text-gray-800'>
                   {t(`projects.${index}.title`)}
                 </h1>
 

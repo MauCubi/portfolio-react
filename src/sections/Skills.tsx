@@ -7,7 +7,7 @@ const Skills = () => {
         <h1 className="my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">Habilidades</h1>
       </div>
       
-      <div className='grid lg:grid-cols-6 mt-12 sm:grid-cols-4 grid-cols-2 justify-center self-center gap-10 lg:w-[60%] sm:w-[80%]'>
+      <div className='grid lg:grid-cols-6 mt-4 sm:mt-12 sm:grid-cols-4 grid-cols-2 justify-center self-center gap-10 lg:w-[60%] sm:w-[80%]'>
 
         <div className='flex flex-col align-middle justify-center items-center'>
           <img src="/assets/skills/HTML5.svg" alt="HTML" className='w-[50px]' />

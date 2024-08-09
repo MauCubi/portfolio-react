@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import FormInput from '../components/FormInput'
 import Swal from 'sweetalert2'
 import { useEffect, useRef, useState } from 'react';
+import { useTranslation } from "react-i18next"
 
 export type FormData = {
     user_name: string
@@ -15,6 +16,7 @@ export type FieldPath<TFieldValues extends FormData> = Path<TFieldValues>
 
 const Contact = () => {
     const form = useRef<HTMLFormElement>(null);
+    const { t } = useTranslation("global")
 
     const [inputDisabled, setinputDisabled] = useState<boolean>(false)
     
@@ -75,7 +77,9 @@ const Contact = () => {
     <div id='contact_me' className='bg-[#dce7ff] w-full py-12'>
 
         <div className='flex justify-center'>
-            <h1 className='my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800'>Contacto</h1>
+            <h1 className='my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800'>
+            {t("header.contact")}
+            </h1>
         </div>
 
         <div className='px-4 sm:w-2/3 lg:w-1/2 mx-auto'>
@@ -90,8 +94,8 @@ const Contact = () => {
                         render={({field}) => (
                             <FormInput 
                                 type='text' 
-                                label='Nombre' 
-                                placeholder='Ingrese su nombre aquí' 
+                                label={t("contact.name")}
+                                placeholder={t("contact.nameplaceholder")}
                                 fieldRef={field}
                                 inputDisabled={inputDisabled}
                                 hasError={errors.user_name?.type === 'required'} 
@@ -106,8 +110,8 @@ const Contact = () => {
                         render={({field}) => (
                             <FormInput 
                                 type='email' 
-                                label='Email' 
-                                placeholder='Ingrese su email aquí' 
+                                label={t("contact.email")}
+                                placeholder={t("contact.emailplaceholder")}
                                 fieldRef={field}
                                 inputDisabled={inputDisabled}
                                 hasError={errors.user_email?.type === 'required'} 
@@ -122,8 +126,8 @@ const Contact = () => {
                         render={({field}) => (
                             <FormInput 
                                 type='textarea' 
-                                label='Mensaje' 
-                                placeholder='Ingrese el mensaje aquí' 
+                                label={t("contact.message")}
+                                placeholder={t("contact.messageplaceholder")}
                                 fieldRef={field}
                                 inputDisabled={inputDisabled}
                                 hasError={errors.message?.type === 'required'} 
@@ -132,7 +136,7 @@ const Contact = () => {
                     />
 
                     {/* <button type='submit' className='w-full px-6 py-5 bg-slate-700 text-white font-medium uppercase rounded shadow-md hover:bg-slate-300 hover:shadow-lg focus:bg-slate-400 focus:outline-none focus:ring-0 active:bg-slate-400' >Enviar</button> */}
-                    <button disabled={inputDisabled} type='submit' className='contact-button' >Enviar</button>
+                    <button disabled={inputDisabled} type='submit' className='contact-button' >{t("contact.send")}</button>
                     
                 </form>
 

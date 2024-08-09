@@ -5,7 +5,7 @@ const About = () => {
   const { t } = useTranslation("global")
 
   return (
-    <div id='aboutme' className="h-[calc(100vh-9rem)] sm:h-[calc(100vh-5rem)] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
+    <div id='aboutme' className="h-[calc(100vh-6rem)] sm:h-[calc(100vh-5rem)] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
 
       <div className='flex flex-col sm:flex-row gap-6 sm:gap-12 sm:my-0 my-10'>
 

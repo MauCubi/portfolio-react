@@ -50,7 +50,7 @@ const Projects = () => {
                 </a>
                 <a href={project.github} target='_blank'>
                   <button type="button" className="project-buttons">
-                    Código
+                    {t("project-buttons.code")}
                   </button> 
                 </a>
                 

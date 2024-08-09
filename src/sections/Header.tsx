@@ -4,6 +4,8 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { useTranslation } from "react-i18next"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
+
 const Header = () => {
 
   const [selectedLanguage, setSelectedLanguage] = useState({language: localStorage.getItem('language')||'Español', lng:localStorage.getItem('lng')||'es'})
@@ -49,7 +51,7 @@ const Header = () => {
 
                 <div className='relative flex ml-8'>
                   <div 
-                    onClick={() => toggleDropdown()}
+                    onClick={() => toggleDropdown()}                    
                     className='flex bg-white border-solid border-gray-300 self-center cursor-pointer border-[1px] 
                     rounded-full align-middle select-none w-10 h-10 items-center justify-center'
                   >
@@ -81,7 +83,7 @@ const Header = () => {
                   onClick={() => toggleMenu()}
                   className={`flex border-solid border-gray-300 self-center cursor-pointer border-[1px] 
                   rounded-full align-middle select-none w-10 h-10 items-center justify-center
-                  ${menuStatus=='hidden'? 'bg-white' : 'bg-slate-800'}`}
+                  ${menuStatus=='hidden'? 'bg-white' : 'bg-slate-200'}`}
                 >
                 <FontAwesomeIcon icon={faBars} className='w-full h-5 text-slate-800' />
               </div>
@@ -94,10 +96,10 @@ const Header = () => {
         <div className={`flex flex-col rounded-xl bg-white absolute top-[80px] w-full shadow-sm drop-shadow-md ${menuStatus}`}>
       
           <div className='flex flex-col items-end p-2'>
-            <a href='#' className='nav-links p-2'>{t("header.about")}</a>
-            <a href='#skills' className='nav-links p-2'>{t("header.skills")}</a>
-            <a href='#projects' className='nav-links p-2'>{t("header.projects")}</a>
-            <a href='#contact_me' className='nav-links p-2'>{t("header.contact")}</a>
+            <a href='#' className='nav-links p-2' onClick={() => setMenuStatus('hidden')}>{t("header.about")}</a>
+            <a href='#skills' className='nav-links p-2' onClick={() => setMenuStatus('hidden')}>{t("header.skills")}</a>
+            <a href='#projects' className='nav-links p-2' onClick={() => setMenuStatus('hidden')}>{t("header.projects")}</a>
+            <a href='#contact_me' className='nav-links p-2' onClick={() => setMenuStatus('hidden')}>{t("header.contact")}</a>
           </div>          
 
         </div>              

@@ -1,6 +1,7 @@
 import { ControllerRenderProps } from 'react-hook-form'
 import '../index.css'
 import { FormData } from '../sections/Contact'
+import { useTranslation } from "react-i18next"
 
 
 interface Props {
@@ -15,6 +16,7 @@ interface Props {
 const FormInput = ({type, label, placeholder, fieldRef, hasError, inputDisabled}: Props) => {
 
     const inputStyle = 'form-control w-full px-3 py-1.5 text-gray-700 rounded border border-solid border-slate-300 focus:border-slate-800 focus:outline-none resize-none'
+    const { t } = useTranslation("global")
 
   return (
     <div className='form-group mb-6'>
@@ -24,7 +26,7 @@ const FormInput = ({type, label, placeholder, fieldRef, hasError, inputDisabled}
         ) : (
             <input disabled={inputDisabled} className={inputStyle} type={type} placeholder={placeholder} {...fieldRef} />
         )}
-        {hasError && <p className='text-red-500 text-xs italic'>{`${label} es requerido`}</p>}
+        {hasError && <p className='text-red-500 text-xs italic'>{`${label} `}{t("contact.required")}</p>}
 
     </div>
   )

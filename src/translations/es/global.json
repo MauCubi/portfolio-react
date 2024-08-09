@@ -31,5 +31,18 @@
             "title": "Encriptador de Texto",
             "description": "Simple App que permite encriptar/desencriptar texto, proyecto que hice para practicar el cambio de idioma y el framework css tailwind"
         }
-    ]
+    ],
+    "project-buttons": {
+        "code": "Código"
+    },
+    "contact": {
+        "name": "Nombre",
+        "nameplaceholder": "Ingrese su nombre aquí",
+        "email": "Email",
+        "emailplaceholder": "Ingrese su email aquí",
+        "message": "Mensaje",
+        "messageplaceholder": "Ingrese el mensaje aquí",        
+        "required": "es requerido",
+        "send": "Enviar"
+    }
 }

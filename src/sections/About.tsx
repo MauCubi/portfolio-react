@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id='aboutme' className="h-[calc(100vh-6rem)] sm:h-[calc(100vh-5rem)] flex justify-center bg-[url('/assets/bg.jpg')] bg-cover">
 
-      <div className='flex flex-col sm:flex-row gap-6 sm:gap-12 sm:my-0 my-10'>
+      <div className='flex flex-col sm:flex-row gap-6 sm:gap-12 sm:my-0 my-12'>
 
         <div className='flex justify-center items-center'>
           <img src='/assets/profileimg.png' className='w-[10em] h-[10em] sm:w-[18em] sm:h-[18em] rounded-full' />

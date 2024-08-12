@@ -1,10 +1,16 @@
+import { useTranslation } from "react-i18next"
 
 const Skills = () => {
+
+  const { t } = useTranslation("global")
+
   return (
     <div id='skills' className='flex py-12 flex-col bg-[#f8f8f8] justify-center'>
 
       <div className='flex justify-center'>
-        <h1 className="my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">Habilidades</h1>
+        <h1 className="my-12 text-[44px] font-bold font-montserrat leading-none tracking-tight text-gray-800">
+          {t("header.skills")}
+        </h1>
       </div>
       
       <div className='grid lg:grid-cols-6 mt-4 sm:mt-12 sm:grid-cols-4 grid-cols-2 justify-center self-center gap-10 lg:w-[60%] sm:w-[80%]'>

@@ -13,23 +13,23 @@
     "projects":[
         {
             "title": "Recipes Social Network",           
-            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+            "description": "Fullstack proyect where you can share your recipes as well as search for recipes from other users, add them to favourites, leave a comment and rate them. Website protected with password encryption and JWT"
         },
         {
-            "title": "Weather App",
-            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+            "title": "Weather App",                        
+            "description": "First React App i developed, using the OpenWeather API to get the weather/forecast and the MapBox search bar to obtain the places and their coordinates."
         },
         {
-            "title": "Color ToDo List",
-            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+            "title": "Color ToDo List",           
+            "description": "Classic App to add tasks or events, with the extra of being able to add deadlines which changes color the closer they are."
         },
         {
             "title": "E-Commerce AluraGeek",
-            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+            "description": "E-Commerce developed as a challenge from the Oracle Next Education program, the design was made following a figma given by those in charge of the program and i used JsonServer for the CRUD."
         },
         {
             "title": "Text Encrypter",
-            "description": "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir"
+            "description": "App that lets you encrypt/decrypt text. Proyect that i made mainly to practice language change and the css tailwind framework. "
         }
     ],
     "project-buttons": {

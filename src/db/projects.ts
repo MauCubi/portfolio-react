@@ -33,8 +33,8 @@ export const projects = [
         img: '/assets/projects/Alugeek.png',
         description: "Descripcion de todo el proyecto, asi tipo re loco viste tiene que ser bastantelargo y bien descriptivo, asi parece todo re cheto y sin dejar espacios en blanco, aca ya no se que mas escribir",
         technologies: ["JavaScript","HTML5","CSS3"],
-        github: "#",
-        demo: "#"
+        github: "https://github.com/MauCubi/alura-geek-commerce",
+        demo: "https://alura-geek.onrender.com/"
     },
     {
         id: 5,

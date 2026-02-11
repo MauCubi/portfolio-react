@@ -16,6 +16,16 @@ const Skills = () => {
       <div className='grid lg:grid-cols-6 mt-4 sm:mt-12 sm:grid-cols-4 grid-cols-2 justify-center self-center gap-10 lg:w-[60%] sm:w-[80%]'>
 
         <div className='flex flex-col align-middle justify-center items-center'>
+          <img src="/assets/skills/React.svg" alt="React" className='w-[50px]' />
+          <p className='skills-name'>React.js</p>
+        </div>
+
+        <div className='flex flex-col align-middle justify-center items-center'>
+          <img src="/assets/skills/Next.svg" alt="Next" className='w-[50px]' />
+          <p className='skills-name'>Next.js</p>
+        </div>
+
+        <div className='flex flex-col align-middle justify-center items-center'>
           <img src="/assets/skills/HTML5.svg" alt="HTML" className='w-[50px]' />
           <p className='skills-name'>HTML</p>
         </div>
@@ -31,44 +41,41 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/TypeScript.svg" alt="JavaScript" className='w-[50px]' />
+          <img src="/assets/skills/TypeScript.svg" alt="TypeScript" className='w-[50px]' />
           <p className='skills-name'>TypeScript</p>
         </div>
 
-        <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/React.svg" alt="JavaScript" className='w-[50px]' />
-          <p className='skills-name'>React.js</p>
-        </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/Tailwind CSS.svg" alt="JavaScript" className='w-[50px]' />
+          <img src="/assets/skills/Tailwind CSS.svg" alt="Tailwind" className='w-[50px]' />
           <p className='skills-name'>Tailwind</p>
         </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/Material UI.svg" alt="JavaScript" className='w-[50px]' />
+          <img src="/assets/skills/Material UI.svg" alt="Material" className='w-[50px]' />
           <p className='skills-name'>Material UI</p>
         </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/Node.js.svg" alt="JavaScript" className='w-[50px]' />
+          <img src="/assets/skills/Node.js.svg" alt="Node" className='w-[50px]' />
           <p className='skills-name'>Node.js</p>
         </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/Git.svg" alt="JavaScript" className='w-[50px]' />
+          <img src="/assets/skills/Git.svg" alt="Git" className='w-[50px]' />
           <p className='skills-name'>Git</p>
         </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/MySQL.svg" alt="JavaScript" className='w-[50px]' />
+          <img src="/assets/skills/MySQL.svg" alt="MySQL" className='w-[50px]' />
           <p className='skills-name'>MySQL</p>
         </div>
 
         <div className='flex flex-col align-middle justify-center items-center'>
-          <img src="/assets/skills/MongoDB.svg" alt="JavaScript" className='w-[50px]' />
+          <img src="/assets/skills/MongoDB.svg" alt="MongoDB" className='w-[50px]' />
           <p className='skills-name'>MongoDB</p>
         </div>
+
       </div>  
     </div>
   )

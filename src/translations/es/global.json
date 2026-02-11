@@ -7,33 +7,74 @@
     },
     "about": {
         "title": "Hola, soy Mauro Cubilla",
-        "description": "Soy un desarrollador web argentino especializado en frontend con React pero también tengo conocimiento de diversas tecnologías backend.",
+        "description": "Desarrollador Frontend con foco en React, creando proyectos reales y en formación continua. Con base Full Stack y motivado por seguir creciendo en equipo.",
         "cv": "Curriculum"
     },    
     "projects":[
         {
-            "title": "Red Social de Recetas",
-            "description": "Proyecto fullstack donde puedes compartir recetas como también buscar las de otros usuarios, agregarlas a favoritos, dejarles comentario y puntaje. Website protegido con encriptación de password y JWT."
+            "title": "Plataforma E-commerce de Hardware",
+            "status": "En desarrollo",
+            "description": "Plataforma e-commerce enfocada en frontend para la venta de hardware informático, diseñada con escalabilidad en mente y preparada para futuras funcionalidades como un PC Builder personalizado.",
+            "highlights": [
+                "Simulación de flujo de autenticación",
+                "Manejo de estados con Redux Toolkit",
+                "Formularios manejados por React Hook Form",
+                "Diseño responsivo con un enfoque mobile-first",
+                "Carrito de compra con persistencia de estado usando LocalStorage",
+                "Funcionalidad de busqueda con debounce para mejorar perfomance"
+            ]
+        },        
+        {
+            "title": "Red Social de Recetas MERN",
+            "status": "Completed",
+            "description": "Aplicación full stack desarrollada con MERN donde los usuarios pueden crear, compartir y buscar recetas, interactuar mediante comentarios y valoraciones, y agregar favoritos. Protegida con hash de contraseñas y autenticación con JWT.",
+            "highlights": [
+                "Manejo de estados con Redux Toolkit",
+                "Autenticación con JWT y rutas protegidas",
+                "CRUD completo de recetas con validaciones",
+                "Comentarios en recetas",
+                "Formularios dinámicos con React Hook Form",
+                "Subida de imágenes con Cloudinary",
+                "Filtros por categoría, paginación y ordenamiento",
+                "Búsqueda con debounce para optimizar el rendimiento",
+                "Sistema de valoraciones con cálculo automático de promedio",
+                "Perfil de usuario con estadísticas (recetas creadas y favoritos)"
+            ]
         },        
         {
             "title": "Aplicación de Clima",
-            "description": "Primera App react que desarrolle utilizando la API OpenWeather para obtener el pronóstico y el search bar de MapBox para obtener lugares y coordenadas."
+            "status": "Completed",
+            "description": "Aplicación de clima que usa API Mapbox para autocompletado de ubicaciones en tiempo real y la API OpenWeaher para mostrar condiciones actuales y pronóstico a 5 días a partir de coordenadas precisas.",
+            "highlights": [
+                "Autocompletado de ubicaciones con Mapbox API",
+                "Consumo de API de clima utilizando Axios",
+                "Pronóstico a 5 días",
+                "Diseño responsivo",
+                "Iconos según las condiciones climáticas",
+                "Control de estado de carga (loading) para mejorar la experiencia de usuario",
+                "Integración de APIs utilizando coordenadas (latitud y longitud)"
+            ]
         },
         {
-            "title": "Color ToDo List",
-            "description": "Clásica App para agregar tareas o eventos, con el extra de poder establecer fechas limites las cuales cambian de color a medida se acercan."
-        },
-        {
-            "title": "E-Commerce AluraGeek",
-            "description": "E-Commerce desarrollado como desafio del programa Oracle Next Education, el diseño se realizo siguiendo un figma brindado por los encargados del programa y se uso JsonServer para el CRUD."
-        },
-        {
-            "title": "Encriptador de Texto",
-            "description": "App que permite encriptar/desencriptar texto, proyecto que hice principalmente para practicar el cambio de idioma y el framework css tailwind."
+            "title": "Deadline Tracker",
+            "status": "Completed",
+            "description": "Aplicación de gestión de tareas con indicadores visuales basados en fechas límite. Las tareas pueden incluir una fecha opcional que cambia dinámicamente de color según el tiempo restante.",
+            "highlights": [
+                "Creación de tareas mediante modal",
+                "Persistencia de estado utilizando LocalStorage",
+                "Fecha límite opcional con indicadores de color dinámicos",
+                "Sistema visual de prioridad según días restantes",
+                "Tareas completadas con tachado y edición deshabilitada",
+                "Manejo de fechas con date-fns",
+                "Diseño responsive"
+            ]
         }
     ],
     "project-buttons": {
         "code": "Código"
+    },
+    "project-github":{
+        "note": "Más proyectos disponibles en mi GitHub →"
     },
     "contact": {
         "name": "Nombre",

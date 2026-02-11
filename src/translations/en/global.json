@@ -7,33 +7,74 @@
     },
     "about": {
         "title": "Hi, i'm Mauro Cubilla",
-        "description": "I'm a web developer from Argentina specialized in frontend with react but i also have knowledge of various backend technologies",
+        "description": "Frontend Developer specializing in React, building real-world projects and continuously learning. With a Full Stack foundation and motivated to grow as part of a team.",
         "cv": "Curriculum"
     },
     "projects":[
         {
-            "title": "Recipes Social Network",           
-            "description": "Fullstack proyect where you can share your recipes as well as search for recipes from other users, add them to favourites, leave a comment and rate them. Website protected with password encryption and JWT"
+            "title": "Hardware E-commerce",       
+            "status": "In development",    
+            "description": "Frontend focused e-commerce platform for computer hardware, designed with scalability in mind and prepared for future features such as a custom PC builder.",
+            "highlights": [
+                "Simulated authentication flow",
+                "State management with Redux Toolkit",
+                "Forms handled with React Hook Form",
+                "Responsive design with a mobile-first approach",
+                "Shopping cart with persistent state using LocalStorage",
+                "Search functionality with debounce for better performance"
+            ]
         },
         {
-            "title": "Weather App",                        
-            "description": "First React App i developed, using the OpenWeather API to get the weather/forecast and the MapBox search bar to obtain the places and their coordinates."
+            "title": "MERN Recipes Social Network",   
+            "status": "Completed",        
+            "description": "Full stack MERN application that allows users to create, share, and search recipes, interact through comments and ratings, and add favorites. Secured with password hashing and JWT-based authentication.",
+            "highlights": [
+                "States management with Redux Toolkit",
+                "authentication with protected routes using JWT",
+                "Full CRUD with validations",
+                "Recipe comments functionality",
+                "Dynamic forms using React Hook Form",
+                "Image upload with Cloudinary",
+                "Category filtering, pagination, and sorting",
+                "Search with debounce for performance optimization",
+                "Dynamic rating system with automatic average calculation",
+                "User profile with statistics (created recipes and favorites)"
+            ]
         },
         {
-            "title": "Color ToDo List",           
-            "description": "Classic App to add tasks or events, with the extra of being able to add deadlines which changes color the closer they are."
+            "title": "Weather App",         
+            "status": "Completed",               
+            "description": "Weather app that uses Mapbox API for real-time location autocomplete and OpenWeather API to display current weather and a 5-day forecast based on precise coordinates.",
+            "highlights": [
+                "Location autocomplete using Mapbox API",
+                "Weather data fetching with Axios",
+                "5-day forecast display",
+                "Responsive design",
+                "Dynamic weather icons based on API response",
+                "Loading state handling for better user experience",
+                "API integration using latitude and longitude coordinates"
+            ]
         },
         {
-            "title": "E-Commerce AluraGeek",
-            "description": "E-Commerce developed as a challenge from the Oracle Next Education program, the design was made following a figma given by those in charge of the program and i used JsonServer for the CRUD."
-        },
-        {
-            "title": "Text Encrypter",
-            "description": "App that lets you encrypt/decrypt text. Proyect that i made mainly to practice language change and the css tailwind framework. "
+            "title": "Deadline Tracker",  
+            "status": "Completed",         
+            "description": "Task management application with deadline visual feedback. Tasks can include optional due dates, dynamically changing color depending on remaining time.",
+            "highlights": [
+                "Task creation through modal",
+                "Persistent state using LocalStorage",
+                "Optional deadline with dynamic color indicators",
+                "Visual priority system based on remaining days",
+                "Completed tasks styled with strike-through and disabled editing",
+                "Date handling with date-fns",
+                "Responsive design"
+            ]
         }
     ],
     "project-buttons": {
         "code": "Code"
+    },
+    "project-github":{
+        "note": "More projects on my GitHub →"
     },
     "contact": {        
         "name": "Name",

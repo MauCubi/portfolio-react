@@ -47,7 +47,7 @@ const Projects = () => {
                   project.highlights
                   &&
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 text-sm py-6 text-start text-gray-700">
-                    {project.highlights.map((item, i) => (
+                    {project.highlights.map((_item, i) => (
                       <li key={i} className="flex items-start gap-2">
                         <span className="text-violet-500 mt-1">•</span>
                         <span>{t(`projects.${index}.highlights.${i}`)}</span>

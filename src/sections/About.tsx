@@ -23,21 +23,21 @@ const About = () => {
 
           <div className='flex flex-row justify-center mt-6 sm:mt-4 sm:gap-6 gap-2'>
 
-            <a href='https://github.com/MauCubi' target='_blank'>
+            <a href='https://github.com/MauCubi' target='_blank' rel="noopener noreferrer">
               <button className='sm:w-[7.25rem] relative flex overflow-hidden flex-row align-middle items-center justify-center rounded-full border border-slate-400 py-1.5 px-3 text-sm bg-slate-100 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-slate-300 before:duration-500 before:ease-out hover:shadow-slate-300 hover:before:h-56 hover:before:w-56'>
                 <img src='/assets/icons/icons8-github.svg' className='w-5 mr-1 z-10'/>
                 <span className='z-10 text-gray-800'>GitHub</span>
               </button>
             </a>
 
-            <a href='https://www.linkedin.com/in/macubi90/' target='_blank'>
+            <a href='https://www.linkedin.com/in/macubi90/' target='_blank' rel="noopener noreferrer">
               <button className='sm:w-[7.25rem] relative flex overflow-hidden flex-row align-middle items-center justify-center rounded-full border border-slate-400 py-1.5 px-3 text-sm bg-slate-100 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-slate-300 before:duration-500 before:ease-out hover:shadow-slate-300 hover:before:h-56 hover:before:w-56'>
                 <img src='/assets/icons/107178_circle_linkedin_icon.svg' className='w-5 mr-1 z-10'/>                            
                   <span className='z-10 text-gray-800'>Linkedin</span>              
               </button>
             </a>
 
-            <a href={ i18n.language == 'es' ? '/assets/pdf/resumeES.pdf' : '/assets/pdf/resumeEN.pdf' } target='_blank'>
+            <a href={ i18n.language == 'es' ? '/assets/pdf/resumeES.pdf' : '/assets/pdf/resumeEN.pdf' } target='_blank' rel="noopener noreferrer">
               <button className='sm:w-[7.25rem] relative flex overflow-hidden flex-row align-middle items-center justify-center rounded-full border border-slate-400 py-1.5 px-3 text-sm bg-slate-100 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-slate-300 before:duration-500 before:ease-out hover:shadow-slate-300 hover:before:h-56 hover:before:w-56'>
                 <img src='/assets/icons/icons8-resume-30.png' className='w-5 mr-1 z-10'/>
                 <span className='z-10 text-gray-800'>{t("about.cv")}</span>

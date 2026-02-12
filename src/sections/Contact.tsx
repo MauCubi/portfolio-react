@@ -82,6 +82,8 @@ const Contact = () => {
             </h1>
         </div>
 
+
+
         <div className='px-4 sm:w-2/3 lg:w-1/2 mx-auto'>
             <div className='rounded-lg shadow-lg bg-white py-10 md:py-12 px-4 md:px-6'>
 
@@ -140,6 +142,29 @@ const Contact = () => {
                     
                 </form>
 
+            </div>
+        </div>
+
+        <div className="mt-10 text-center">
+            <p className="text-sm text-gray-600">
+                {t("contact.contact-me")}
+            </p>
+
+            <a
+                href="mailto:ma.cubi90@gmail.com"
+                className="block mt-2 text-base font-medium text-violet-500 hover:text-violet-400 transition-colors duration-200"
+            >
+                ma.cubi90@gmail.com
+            </a>
+
+            <div className="mt-4 flex justify-center gap-6 text-sm text-gray-400">
+                <a
+                href="https://linkedin.com/in/macubi90"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                    <img src='/assets/icons/107178_circle_linkedin_icon.svg' className='w-8'/> 
+                </a>
             </div>
         </div>
 

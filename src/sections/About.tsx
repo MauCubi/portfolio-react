@@ -37,7 +37,7 @@ const About = () => {
               </button>
             </a>
 
-            <a href={ i18n.language == 'es' ? '/assets/pdf/resumeES.pdf' : '/assets/pdf/resumeEN.pdf' } target='_blank' rel="noopener noreferrer">
+            <a href={ i18n.language == 'es' ? '/assets/pdf/resumeES_new.pdf' : '/assets/pdf/resumeEN_new.pdf' } target='_blank' rel="noopener noreferrer">
               <button className='sm:w-[7.25rem] relative flex overflow-hidden flex-row align-middle items-center justify-center rounded-full border border-slate-400 py-1.5 px-3 text-sm bg-slate-100 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-slate-300 before:duration-500 before:ease-out hover:shadow-slate-300 hover:before:h-56 hover:before:w-56'>
                 <img src='/assets/icons/icons8-resume-30.png' className='w-5 mr-1 z-10'/>
                 <span className='z-10 text-gray-800'>{t("about.cv")}</span>

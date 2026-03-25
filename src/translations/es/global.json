@@ -14,14 +14,14 @@
         {
             "title": "Plataforma E-commerce de Hardware",
             "status": "En desarrollo",
-            "description": "Plataforma e-commerce enfocada en frontend para la venta de hardware informático, diseñada con escalabilidad en mente y preparada para futuras funcionalidades como un PC Builder personalizado.",
+            "description": "Plataforma e-commerce para la venta de hardware informático, diseñada con escalabilidad en mente y preparada para futuras funcionalidades como un PC Builder personalizado.",
             "highlights": [
-                "Simulación de flujo de autenticación",
+                "Sistema de autenticación con Auth.js, JWT y hashing seguro de contraseñas",
+                "Backend desarrollado con PostgreSQL y Prisma ORM",
                 "Manejo de estados con Redux Toolkit",
-                "Formularios manejados por React Hook Form",
-                "Diseño responsivo con un enfoque mobile-first",
+                "Funcionalidad de busqueda con debounce para mejorar perfomance",
                 "Carrito de compra con persistencia de estado usando LocalStorage",
-                "Funcionalidad de busqueda con debounce para mejorar perfomance"
+                "Diseño responsivo con un enfoque mobile-first"
             ]
         },        
         {

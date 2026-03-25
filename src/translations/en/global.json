@@ -14,14 +14,14 @@
         {
             "title": "Hardware E-commerce",       
             "status": "In development",    
-            "description": "Frontend focused e-commerce platform for computer hardware, designed with scalability in mind and prepared for future features such as a custom PC builder.",
+            "description": "E-commerce platform for computer hardware, designed with scalability in mind and prepared for future features such as a custom PC builder.",
             "highlights": [
-                "Simulated authentication flow",
+                "Authentication system using Auth.js, JWT, and secure password hashing",
+                "Backend built with PostgreSQL and Prisma ORM",
                 "State management with Redux Toolkit",
-                "Forms handled with React Hook Form",
-                "Responsive design with a mobile-first approach",
+                "Search functionality with debounce for better performance",
                 "Shopping cart with persistent state using LocalStorage",
-                "Search functionality with debounce for better performance"
+                "Responsive mobile-first design"
             ]
         },
         {

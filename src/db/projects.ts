@@ -5,20 +5,20 @@ export const projects = [
         title: "Plataforma E-commerce de Hardware",
         status: "En Desarrollo",
         img: '/assets/projects/hardware.png',
-        description: "Plataforma e-commerce enfocada en frontend para la venta de hardware informático, diseñada con escalabilidad en mente y preparada para futuras funcionalidades como un PC Builder personalizado.",
+        description: "Plataforma e-commerce para la venta de hardware informático, diseñada con escalabilidad en mente y preparada para futuras funcionalidades como un PC Builder personalizado.",
         highlights: [
-            "Simulación de flujo de autenticación",
+            "Autenticación con AuthJs, con JWT y password hashing",
             "Manejo de estados con Redux Toolkit",
-            "Formularios manejados por React Hook Form",
+            "Backend implementado con postgresSQL y ORM Prisma",
             "Diseño responsivo con un enfoque mobile-first",
             "Carrito de compra con persistencia de estado usando LocalStorage",
             "Funcionalidad de busqueda con debounce para mejorar perfomance"
         ],
         technologies: ["React", "Next", "TypeScript","HTML5","CSS3","Tailwind CSS"],
         language: 'EN',
-        roadmap:'Backend integration → Real authentication → Checkout → PC builder',
+        roadmap:'Filters → Checkout → PC builder',
         github: "https://github.com/MauCubi/react-recipe-fullstack",
-        demo: "https://smart-hardware-shop.vercel.app/"
+        demo: "https://smart-hardware-shop-git-backend-180c78-mauros-projects-ddc3e294.vercel.app/"
     },
     {
         id: 2,

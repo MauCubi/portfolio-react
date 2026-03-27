@@ -18,7 +18,7 @@ export const projects = [
         language: 'EN',
         roadmap:'Filters → Checkout → PC builder',
         github: "https://github.com/MauCubi/react-recipe-fullstack",
-        demo: "https://smart-hardware-shop-git-backend-180c78-mauros-projects-ddc3e294.vercel.app/"
+        demo: "https://smart-hardware-shop.vercel.app/"
     },
     {
         id: 2,

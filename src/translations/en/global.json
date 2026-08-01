@@ -21,7 +21,8 @@
                 "State management with Redux Toolkit",
                 "Search functionality with debounce for better performance",
                 "Shopping cart with persistent state using LocalStorage",
-                "Responsive mobile-first design"
+                "Responsive mobile-first design",
+                "PayPal checkout"
             ]
         },
         {

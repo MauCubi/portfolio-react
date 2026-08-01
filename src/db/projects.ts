@@ -12,11 +12,12 @@ export const projects = [
             "Backend implementado con postgresSQL y ORM Prisma",
             "Diseño responsivo con un enfoque mobile-first",
             "Carrito de compra con persistencia de estado usando LocalStorage",
-            "Funcionalidad de busqueda con debounce para mejorar perfomance"
+            "Funcionalidad de busqueda con debounce para mejorar perfomance",
+            "Pagos con PayPal"
         ],
         technologies: ["React", "Next", "TypeScript","HTML5","CSS3","Tailwind CSS"],
         language: 'EN',
-        roadmap:'Filters → Checkout → PC builder',
+        roadmap:'PC builder',
         github: "https://github.com/MauCubi/react-recipe-fullstack",
         demo: "https://smart-hardware-shop.vercel.app/"
     },

@@ -21,7 +21,8 @@
                 "Manejo de estados con Redux Toolkit",
                 "Funcionalidad de busqueda con debounce para mejorar perfomance",
                 "Carrito de compra con persistencia de estado usando LocalStorage",
-                "Diseño responsivo con un enfoque mobile-first"
+                "Diseño responsivo con un enfoque mobile-first",
+                "Pagos con PayPal"
             ]
         },        
         {
